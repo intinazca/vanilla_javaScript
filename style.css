@@ -103,9 +103,13 @@ li{
     position: relative;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .container-banner {
       height: 100%;
+    }
+    header{
+        position: relative;
+        height: auto;
     }
   }
 
